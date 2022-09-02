@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/infinixs5lite/android_device_tecno_KG7h.git -b twrp-12"
+export FOX_BRANCH="fox_11"
+export DT_LINK="https://github.com/infinixs5lite/android_device_tecno_KG7h.git -b twrp-11"
 
 export DEVICE="KG7h"
 export OEM="tecno"
