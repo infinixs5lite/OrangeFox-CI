@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11"
-export DT_LINK="https://github.com/infinixs5lite/android_device_tecno_KG7h.git -b twrp-11"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://gitlab.com/kelvinchinedu/recovery_device_xiaomi_gale-TWRP_UPDATE"
 
-export DEVICE="KG7h"
-export OEM="tecno"
+export DEVICE="gale"
+export OEM="xiaomi"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
@@ -22,7 +22,7 @@ DEPS=(
 )
 
 # Extra Command
-export EXTRA_CMD="export OF_MAINTAINER=Sushrut1101"
+export EXTRA_CMD="export OF_MAINTAINER=Kelvin"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
